@@ -15,7 +15,8 @@ const cap1 = { ...person };
 
 // Modify 'team1' and 'cap1' to demonstrate that they are copies
 team1.push("Mike");
-person.name = "Jane";
+cap1.name = "Jane";
+cap1.age=30;
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
