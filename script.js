@@ -14,7 +14,7 @@ const team1 = [...players];
 const cap1 = { ...person };
 
 // Modify 'team1' and 'cap1' to demonstrate that they are copies
-team1[0] = "Mike";
+team1.push("Mike");
 cap1.name = "Jane";
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
