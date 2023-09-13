@@ -9,6 +9,6 @@ const person = {
 
 window.players = players;
 window.person = person;
-window.team = team;
-window.team1 = team1;
-window.cap1 = cap1;
+window.team = players;
+window.team1 = players;
+window.cap1 = person;
